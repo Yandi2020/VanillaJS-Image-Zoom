@@ -65,7 +65,6 @@ body{
     color: rgb(159, 9, 159);
 }
 
-/* to show the lens over the image */
 #img-container{
     z-index: 1;
     position: relative;
@@ -74,11 +73,9 @@ body{
 #lens{
     z-index: 2;
     position: absolute;
-
     width: 160px;
     height: 160px;
     border: 2px solid #000;
-
     cursor: none;
     background-repeat: no-repeat;
 }
